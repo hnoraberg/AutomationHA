@@ -1,4 +1,16 @@
-I unfortunately didn't have time to do this assignment on time due to a personal crisis,
-will resubmit a complete project according to the resit arrangement.
+Documentation for GoodReads Scraping Automation
 
-GitHub repository link: https://github.com/hnoraberg/AutomationHA
+Prerequisites for running scripts:
+Install scrapy:
+    pip install scrapy
+Install Google client library:
+    pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+Install Pandas:
+    pip install pandas
+
+Download 'home_assignment_automation_HN' directory
+Start 'scheduler' script in IDE
+Create a project containing 'Google_spreadsheet_and_forms' script in Google Script:
+    Tools -> Script Editor -> Edit -> Current Project's Triggers -> Add Trigger
+    Set a weekly trigger
+    Run script
